@@ -29,10 +29,10 @@
     IMNavigationVC *nvc3 = [[IMNavigationVC alloc]initWithRootViewController:[[IMOrderViewController alloc]init]] ;
     IMNavigationVC *nvc4 = [[IMNavigationVC alloc]initWithRootViewController:[[IMMyViewController alloc]init]] ;
     
-    nvc1.tabBarItem = [self itemWithSelectedImage:@"home_up@2x" image:@"home_press@2x" title:@"首页"] ;
-    nvc2.tabBarItem = [self itemWithSelectedImage:@"indent_up@2x" image:@"indent_down@2x" title:@"外卖"] ;
-    nvc3.tabBarItem = [self itemWithSelectedImage:@"mine_up@2x" image:@"mine_down@2x" title:@"订单"] ;
-    nvc4.tabBarItem = [self itemWithSelectedImage:@"take_up@2x" image:@"take_down@2x" title:@"我的"] ;
+    nvc1.tabBarItem = [self itemWithSelectedImage:@"home_up" image:@"home_press" title:@"首页"] ;
+    nvc2.tabBarItem = [self itemWithSelectedImage:@"indent_up" image:@"indent_down" title:@"外卖"] ;
+    nvc3.tabBarItem = [self itemWithSelectedImage:@"mine_up" image:@"mine_down" title:@"订单"] ;
+    nvc4.tabBarItem = [self itemWithSelectedImage:@"take_up" image:@"take_down" title:@"我的"] ;
     //统一用tabbar来管理navigationController
     self.viewControllers = @[nvc1, nvc2, nvc3, nvc4];
     self.tabBar.tintColor = [UIColor greenColor];

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "IMTabBarVC.h"
 
 #import "GVMineChoiceBar.h"
 #import "GVTel.h"
@@ -173,6 +173,9 @@
             [NetworkRequest LogininfoRequestWithUrl:GV_TEL parameters:@{@"tel":tel.telText.text} Success:^(id success) {
                 NSLog(@"登录成功");
                 NSLog(@"%@",success);
+                
+                IMTabBarVC *tabBarVC = [[IMTabBarVC alloc]init] ;
+                [self presentViewController:tabBarVC animated:YES completion:nil] ;
             } Failure:^(id failure) {
 
             }];
@@ -187,6 +190,8 @@
     [NetworkRequest LogininfoRequestWithUrl:GV_PASS parameters:@{ @"username":pass.userName.text, @"password":pass.passWord.text} Success:^(id success) {
         NSLog(@"登录成功");
         NSLog(@"%@",success);
+        IMTabBarVC *tabBarVC = [[IMTabBarVC alloc]init] ;
+        [self presentViewController:tabBarVC animated:YES completion:nil] ;
     } Failure:^(id failure) {
          NSLog(@"%@",failure);
     }];

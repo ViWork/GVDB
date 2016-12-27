@@ -26,7 +26,7 @@
     
     if ([[dic objectForKey:@"CFBundleVersion"] isEqualToString:[[NSUserDefaults standardUserDefaults] valueForKey:@"version"] ] ) {
         //主界面
-        self.window.rootViewController = [[ViewController alloc]init] ;
+        self.window.rootViewController = [[IMTabBarVC alloc]init] ;
         
     }else{
         
