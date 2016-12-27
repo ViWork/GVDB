@@ -25,7 +25,7 @@
     self = [super initWithRootViewController:rootViewController] ;
     if (self) {
         // 导航条颜色
-        self.navigationBar.barTintColor = [UIColor redColor] ;
+        self.navigationBar.barTintColor = [UIColor whiteColor] ;
         //导航栏<按钮>字体颜色
         self.navigationBar.tintColor = [UIColor whiteColor];
         //导航栏的字体颜色,大小

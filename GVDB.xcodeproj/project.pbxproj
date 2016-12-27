@@ -47,10 +47,6 @@
 		B58021DE1E126C860048EEC1 /* 返回-3.png in Resources */ = {isa = PBXBuildFile; fileRef = B58021C91E126C860048EEC1 /* 返回-3.png */; };
 		B58021DF1E126C860048EEC1 /* ResetView.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021CC1E126C860048EEC1 /* ResetView.m */; };
 		B58021E01E126C860048EEC1 /* ResetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021CE1E126C860048EEC1 /* ResetViewController.m */; };
-		B58021E11E126C860048EEC1 /* GVAL.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021D11E126C860048EEC1 /* GVAL.m */; };
-		B58021E21E126C860048EEC1 /* GVColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021D31E126C860048EEC1 /* GVColor.m */; };
-		B58021E31E126C860048EEC1 /* NetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021D51E126C860048EEC1 /* NetworkRequest.m */; };
-		B58021E41E126C860048EEC1 /* UIView+GVExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021D71E126C860048EEC1 /* UIView+GVExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,14 +140,6 @@
 		B58021CC1E126C860048EEC1 /* ResetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetView.m; sourceTree = "<group>"; };
 		B58021CD1E126C860048EEC1 /* ResetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetViewController.h; sourceTree = "<group>"; };
 		B58021CE1E126C860048EEC1 /* ResetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetViewController.m; sourceTree = "<group>"; };
-		B58021D01E126C860048EEC1 /* GVAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVAL.h; sourceTree = "<group>"; };
-		B58021D11E126C860048EEC1 /* GVAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVAL.m; sourceTree = "<group>"; };
-		B58021D21E126C860048EEC1 /* GVColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVColor.h; sourceTree = "<group>"; };
-		B58021D31E126C860048EEC1 /* GVColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVColor.m; sourceTree = "<group>"; };
-		B58021D41E126C860048EEC1 /* NetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkRequest.h; sourceTree = "<group>"; };
-		B58021D51E126C860048EEC1 /* NetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkRequest.m; sourceTree = "<group>"; };
-		B58021D61E126C860048EEC1 /* UIView+GVExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GVExtension.h"; sourceTree = "<group>"; };
-		B58021D71E126C860048EEC1 /* UIView+GVExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GVExtension.m"; sourceTree = "<group>"; };
 		D61814A8F4B98191D8F9593E /* Pods-GVDBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVDBUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GVDBUITests/Pods-GVDBUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DAA1F4100B65F22D5D08E00A /* libPods-GVDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GVDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -423,7 +411,6 @@
 				B58021BB1E126C860048EEC1 /* GVFindOassword */,
 				B58021C01E126C860048EEC1 /* GVLog */,
 				B58021CA1E126C860048EEC1 /* Reset */,
-				B58021CF1E126C860048EEC1 /* Tool */,
 				9872342F1E1259AF004A4448 /* AppDelegate.h */,
 				987234301E1259AF004A4448 /* AppDelegate.m */,
 			);
@@ -544,21 +531,6 @@
 				B58021CE1E126C860048EEC1 /* ResetViewController.m */,
 			);
 			path = Reset;
-			sourceTree = "<group>";
-		};
-		B58021CF1E126C860048EEC1 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				B58021D01E126C860048EEC1 /* GVAL.h */,
-				B58021D11E126C860048EEC1 /* GVAL.m */,
-				B58021D21E126C860048EEC1 /* GVColor.h */,
-				B58021D31E126C860048EEC1 /* GVColor.m */,
-				B58021D41E126C860048EEC1 /* NetworkRequest.h */,
-				B58021D51E126C860048EEC1 /* NetworkRequest.m */,
-				B58021D61E126C860048EEC1 /* UIView+GVExtension.h */,
-				B58021D71E126C860048EEC1 /* UIView+GVExtension.m */,
-			);
-			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -860,8 +832,6 @@
 				987234331E1259AF004A4448 /* IMDeliveryViewController.m in Sources */,
 				987234421E1259AF004A4448 /* IMOrderViewController.m in Sources */,
 				B58021921E12608C0048EEC1 /* NetworkRequest.m in Sources */,
-				B58021E11E126C860048EEC1 /* GVAL.m in Sources */,
-				B58021E21E126C860048EEC1 /* GVColor.m in Sources */,
 				987234411E1259AF004A4448 /* IMTabBarVC.m in Sources */,
 				987234431E1259AF004A4448 /* AppDelegate.m in Sources */,
 				987234371E1259AF004A4448 /* IMMyViewController.m in Sources */,
@@ -869,12 +839,10 @@
 				B58021DC1E126C860048EEC1 /* GVTel.m in Sources */,
 				B58021E01E126C860048EEC1 /* ResetViewController.m in Sources */,
 				B58021DA1E126C860048EEC1 /* GVMineChoiceBar.m in Sources */,
-				B58021E31E126C860048EEC1 /* NetworkRequest.m in Sources */,
 				B58021901E12608C0048EEC1 /* GVAL.m in Sources */,
 				987234341E1259AF004A4448 /* IMFirstRunViewController.m in Sources */,
 				B58021DD1E126C860048EEC1 /* ViewController.m in Sources */,
 				B54951941E114CE300DE0F6B /* main.m in Sources */,
-				B58021E41E126C860048EEC1 /* UIView+GVExtension.m in Sources */,
 				987234351E1259AF004A4448 /* IMHomeSuperViewController.m in Sources */,
 				987234381E1259AF004A4448 /* IMNavigationVC.m in Sources */,
 				B58021D81E126C860048EEC1 /* GVFindPasswordView.m in Sources */,

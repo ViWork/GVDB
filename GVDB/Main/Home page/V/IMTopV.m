@@ -16,7 +16,7 @@
         _leftBtn = [[UIButton alloc]initWithFrame:CGRectMake(5, 10, 80, 40)] ;
         _leftBtn.frame = CGRectMake(10, 10, 80, 30);
         [_leftBtn setTitle:@"定位" forState:UIControlStateNormal];
-        [_leftBtn setTitleColor:[CPColor hexStringToColor:@"#333333"] forState:UIControlStateNormal] ;
+        [_leftBtn setTitleColor:[GVColor hexStringToColor:@"#333333"] forState:UIControlStateNormal] ;
     }
     return _leftBtn ;
 }
@@ -26,7 +26,7 @@
         _rightBtn = [[UIButton alloc]initWithFrame:CGRectMake(5, 10, 80, 40)] ;
         _rightBtn.frame = CGRectMake(10, 10, 80, 30);
         [_rightBtn setImage:[UIImage imageNamed:@"more@2x"] forState:UIControlStateNormal];
-        [_rightBtn setTitleColor:[CPColor hexStringToColor:@"#333333"] forState:UIControlStateNormal] ;
+        [_rightBtn setTitleColor:[GVColor hexStringToColor:@"#333333"] forState:UIControlStateNormal] ;
     }
     return _rightBtn ;
 }
