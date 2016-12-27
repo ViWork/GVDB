@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IMTopV : UIView
+@interface IMTopV : UIView<UISearchBarDelegate>
 @property(nonatomic,strong)UIButton *leftBtn ,*rightBtn ;
 @property(nonatomic,strong)UIImageView * topImg ;
 @property(nonatomic,strong)UISearchBar * searchBar ;

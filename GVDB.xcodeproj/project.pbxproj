@@ -18,6 +18,9 @@
 		987234421E1259AF004A4448 /* IMOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 987234291E1259AF004A4448 /* IMOrderViewController.m */; };
 		987234431E1259AF004A4448 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 987234301E1259AF004A4448 /* AppDelegate.m */; };
 		987234A51E126F5C004A4448 /* IMTopV.m in Sources */ = {isa = PBXBuildFile; fileRef = 987234A41E126F5C004A4448 /* IMTopV.m */; };
+		987599181E12CACC00A3256D /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 987599161E12CACC00A3256D /* HomeTableViewCell.m */; };
+		987599191E12CACC00A3256D /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 987599171E12CACC00A3256D /* HomeTableViewCell.xib */; };
+		9875991C1E132F7300A3256D /* IMTopOneV.m in Sources */ = {isa = PBXBuildFile; fileRef = 9875991B1E132F7300A3256D /* IMTopOneV.m */; };
 		9F38197044E652A4F8F433D8 /* libPods-GVDBTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AFB68CE853AF62A0FED18A /* libPods-GVDBTests.a */; };
 		AFCA7F0277A9B612A1C79C34 /* libPods-GVDBUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA540362C06EDC1E52804F1 /* libPods-GVDBUITests.a */; };
 		B54951941E114CE300DE0F6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B54951931E114CE300DE0F6B /* main.m */; };
@@ -87,6 +90,11 @@
 		987234301E1259AF004A4448 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		987234A31E126F5C004A4448 /* IMTopV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMTopV.h; sourceTree = "<group>"; };
 		987234A41E126F5C004A4448 /* IMTopV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMTopV.m; sourceTree = "<group>"; };
+		987599151E12CACC00A3256D /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		987599161E12CACC00A3256D /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		987599171E12CACC00A3256D /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		9875991A1E132F7300A3256D /* IMTopOneV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMTopOneV.h; sourceTree = "<group>"; };
+		9875991B1E132F7300A3256D /* IMTopOneV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMTopOneV.m; sourceTree = "<group>"; };
 		B1AFB68CE853AF62A0FED18A /* libPods-GVDBTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GVDBTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B549518F1E114CE300DE0F6B /* GVDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GVDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54951931E114CE300DE0F6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -273,6 +281,11 @@
 				9872340F1E1259AF004A4448 /* IMSuperTableV.m */,
 				987234A31E126F5C004A4448 /* IMTopV.h */,
 				987234A41E126F5C004A4448 /* IMTopV.m */,
+				9875991A1E132F7300A3256D /* IMTopOneV.h */,
+				9875991B1E132F7300A3256D /* IMTopOneV.m */,
+				987599151E12CACC00A3256D /* HomeTableViewCell.h */,
+				987599161E12CACC00A3256D /* HomeTableViewCell.m */,
+				987599171E12CACC00A3256D /* HomeTableViewCell.xib */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -627,6 +640,7 @@
 				B54951A21E114CE300DE0F6B /* LaunchScreen.storyboard in Resources */,
 				B58021DE1E126C860048EEC1 /* 返回-3.png in Resources */,
 				B549519F1E114CE300DE0F6B /* Assets.xcassets in Resources */,
+				987599191E12CACC00A3256D /* HomeTableViewCell.xib in Resources */,
 				B549519D1E114CE300DE0F6B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -802,12 +816,14 @@
 				987234431E1259AF004A4448 /* AppDelegate.m in Sources */,
 				987234371E1259AF004A4448 /* IMMyViewController.m in Sources */,
 				B58021D91E126C860048EEC1 /* GVFindPasswordViewController.m in Sources */,
+				987599181E12CACC00A3256D /* HomeTableViewCell.m in Sources */,
 				B58021DC1E126C860048EEC1 /* GVTel.m in Sources */,
 				B58021E01E126C860048EEC1 /* ResetViewController.m in Sources */,
 				B58021DA1E126C860048EEC1 /* GVMineChoiceBar.m in Sources */,
 				B58021901E12608C0048EEC1 /* GVAL.m in Sources */,
 				987234341E1259AF004A4448 /* IMFirstRunViewController.m in Sources */,
 				B58021DD1E126C860048EEC1 /* ViewController.m in Sources */,
+				9875991C1E132F7300A3256D /* IMTopOneV.m in Sources */,
 				B54951941E114CE300DE0F6B /* main.m in Sources */,
 				987234351E1259AF004A4448 /* IMHomeSuperViewController.m in Sources */,
 				987234381E1259AF004A4448 /* IMNavigationVC.m in Sources */,
