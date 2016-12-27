@@ -1,0 +1,36 @@
+//
+//  GVPrefixHeader.pch
+//  GVLogin
+//
+//  Created by Viosky on 2016/12/24.
+//  Copyright © 2016年 Viosky. All rights reserved.
+//
+
+#ifndef GVPrefixHeader_pch
+#define GVPrefixHeader_pch
+
+
+
+#pragma mark - 引入头文件
+#import "UIView+GVExtension.h"
+#import "GVColor.h"
+#import <Masonry/Masonry.h>
+#import <AFNetworking.h>
+#import "GVAL.h"
+#import "NetworkRequest.h"
+
+
+
+#define SIZE(size,type) (size*72.0/type)
+
+#define kDevice_Is_iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+#define kDevice_Is_iPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
+#define kDevice_Is_iPhone6Plus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeM
+
+#pragma mark - 定义链接
+#define GV_PASS @"http://www.kdiana.com/index.php/Before/UserCenter/user_login"
+#define GV_TEL @"http://www.kdiana.com/index.php/Before/UserCenter/tel_login"
+#define GV_TEl_TEST @"http://www.kdiana.com/index.php/home/seller/sendMessage"
+#define GV_TEL_YZ @"http://www.kdiana.com/index.php/home/seller/checkTelCaptcha"
+
+#endif /* GVPrefixHeader_pch */

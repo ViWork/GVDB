@@ -33,7 +33,7 @@
         [[NSUserDefaults standardUserDefaults] setObject:[dic objectForKey:@"CFBundleVersion"] forKey:@"version"];
         self.window.rootViewController = [[IMFirstRunViewController alloc]init] ;
     }
-    
+
     return YES;
 }
 
