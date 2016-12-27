@@ -35,19 +35,12 @@
 
 @implementation ViewController
 
-- (void)viewWillAppear:(BOOL)animated{
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        [pass removeFromSuperview];
-        [button_1 removeFromSuperview];
-    });
-}
-
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setNavigationUI];
     [self setViewUI];
+
+    NSLog(@"======>\n\n\n\n\n%.2f",[GVAL setGVAL:20.0]);
     
     
 }
@@ -201,20 +194,28 @@
 #pragma mark - 切换界面事件
 - (void)choiceBarClick:(NSInteger) index{
     if (index == 0)
-    {
-        [self.view addSubview:tel];
-        [pass  removeFromSuperview];
-        [button_1 removeFromSuperview];
-        [remember removeFromSuperview];
-        [imageView removeFromSuperview];
-        [self setTelButton];
+    {                                                   
+        tel.hidden = NO;
+        button.hidden = NO;
 
+        pass.hidden = YES;
+        button_1.hidden = YES;
+        remember.hidden = YES;
+        imageView.hidden = YES;
     }
     else{
-        [self.view addSubview:pass];
-        [tel  removeFromSuperview];
-        [button removeFromSuperview];
-        [self setPassButton];
+        pass.hidden = NO;
+        button_1.hidden = NO;
+        remember.hidden = NO;
+        imageView.hidden = NO;
+        static dispatch_once_t onceToken;
+        dispatch_once(&onceToken, ^{
+            [self.view addSubview:pass];
+            [self setPassButton];
+        });
+        tel.hidden = YES;
+        button.hidden = YES;
+
     }
 }
 

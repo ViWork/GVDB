@@ -9,18 +9,18 @@
 #import "GVAL.h"
 
 @implementation GVAL
-+ (NSInteger)setGVAL:(NSInteger)AL{
++ (CGFloat)setGVAL:(CGFloat)AL{
     NSInteger al;
     NSString *res =  [self iphoneType];
     if ([res isEqualToString:@"iPhone 7 Plus" ] && [res isEqualToString:@"iPhone 6s Plus"] )
     {
-        al = 154;
+        al = 154.00;
     }
     else{
-        al = 163;
+        al = 163.00;
     }
     NSInteger GVAL;
-    GVAL = AL*72/al;
+    GVAL = AL*72.0/al;
     return GVAL;
 }
 
