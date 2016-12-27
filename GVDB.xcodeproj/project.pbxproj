@@ -47,6 +47,7 @@
 		B58021DE1E126C860048EEC1 /* 返回-3.png in Resources */ = {isa = PBXBuildFile; fileRef = B58021C91E126C860048EEC1 /* 返回-3.png */; };
 		B58021DF1E126C860048EEC1 /* ResetView.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021CC1E126C860048EEC1 /* ResetView.m */; };
 		B58021E01E126C860048EEC1 /* ResetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021CE1E126C860048EEC1 /* ResetViewController.m */; };
+		B5F19E8C1E12A02B00CE2910 /* GVTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F19E8B1E12A02B00CE2910 /* GVTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,6 +141,8 @@
 		B58021CC1E126C860048EEC1 /* ResetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetView.m; sourceTree = "<group>"; };
 		B58021CD1E126C860048EEC1 /* ResetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetViewController.h; sourceTree = "<group>"; };
 		B58021CE1E126C860048EEC1 /* ResetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetViewController.m; sourceTree = "<group>"; };
+		B5F19E8A1E12A02B00CE2910 /* GVTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVTableViewCell.h; sourceTree = "<group>"; };
+		B5F19E8B1E12A02B00CE2910 /* GVTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVTableViewCell.m; sourceTree = "<group>"; };
 		D61814A8F4B98191D8F9593E /* Pods-GVDBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVDBUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GVDBUITests/Pods-GVDBUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DAA1F4100B65F22D5D08E00A /* libPods-GVDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GVDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -393,6 +396,8 @@
 		9872342B1E1259AF004A4448 /* V */ = {
 			isa = PBXGroup;
 			children = (
+				B5F19E8A1E12A02B00CE2910 /* GVTableViewCell.h */,
+				B5F19E8B1E12A02B00CE2910 /* GVTableViewCell.m */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -829,6 +834,7 @@
 				987234361E1259AF004A4448 /* IMSuperTableV.m in Sources */,
 				B58021DF1E126C860048EEC1 /* ResetView.m in Sources */,
 				B58021911E12608C0048EEC1 /* GVColor.m in Sources */,
+				B5F19E8C1E12A02B00CE2910 /* GVTableViewCell.m in Sources */,
 				987234331E1259AF004A4448 /* IMDeliveryViewController.m in Sources */,
 				987234421E1259AF004A4448 /* IMOrderViewController.m in Sources */,
 				B58021921E12608C0048EEC1 /* NetworkRequest.m in Sources */,
