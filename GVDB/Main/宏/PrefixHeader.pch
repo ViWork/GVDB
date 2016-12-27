@@ -18,7 +18,7 @@
 #define ScreenRect   [UIScreen  mainScreen].bounds
 #define ScreenWIDTH    [UIScreen  mainScreen].bounds.size.width
 #define ScreenHEIGHT    [UIScreen mainScreen].bounds.size.height
-
+#pragma mark - 引入头文件
 #import "IMHomeSuperViewController.h"
 #import "IMMyViewController.h"
 #import "IMOrderViewController.h"
@@ -28,5 +28,13 @@
 #import "UIView+GVExtension.h"
 #import "NetworkRequest.h"
 #import "GVAL.h"
+#import <Masonry.h>
+#import <AFNetworking.h>
+
+#pragma mark - 定义链接
+#define GV_PASS @"http://www.kdiana.com/index.php/Before/UserCenter/user_login"
+#define GV_TEL @"http://www.kdiana.com/index.php/Before/UserCenter/tel_login"
+#define GV_TEl_TEST @"http://www.kdiana.com/index.php/home/seller/sendMessage"
+#define GV_TEL_YZ @"http://www.kdiana.com/index.php/home/seller/checkTelCaptcha"
 
 #endif /* PrefixHeader_pch */

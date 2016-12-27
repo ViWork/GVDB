@@ -8,12 +8,11 @@
 
 #import "ViewController.h"
 
-#import "GVPrefixHeader.pch"
+
 #import "GVMineChoiceBar.h"
 #import "GVTel.h"
 #import "GVPass.h"
 #import "GVFindPasswordViewController.h"
-typedef NS_ENUM(<#...#>) <#name#>
 
 @interface ViewController () <GVMineChoiceBarDelegate>
 {
@@ -49,7 +48,7 @@ typedef NS_ENUM(<#...#>) <#name#>
     [super viewDidLoad];
     [self setNavigationUI];
     [self setViewUI];
-    NSLog(@"%f",SIZE(20, 163.0));
+    
     
 }
 
@@ -205,12 +204,16 @@ typedef NS_ENUM(<#...#>) <#name#>
     {
         [self.view addSubview:tel];
         [pass  removeFromSuperview];
+        [button_1 removeFromSuperview];
+        [remember removeFromSuperview];
+        [imageView removeFromSuperview];
         [self setTelButton];
 
     }
     else{
         [self.view addSubview:pass];
         [tel  removeFromSuperview];
+        [button removeFromSuperview];
         [self setPassButton];
     }
 }

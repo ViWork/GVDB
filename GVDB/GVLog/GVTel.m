@@ -8,7 +8,7 @@
 //
 
 #import "GVTel.h"
-#import "GVPrefixHeader.pch"
+
 #import "GVColor.h"
 
 @interface GVTel ()

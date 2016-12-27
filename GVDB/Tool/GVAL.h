@@ -17,6 +17,6 @@
 
  @return 处理后的数值
  */
-- (NSInteger)setGVAL:(NSInteger)AL;
--  (NSString *)iphoneType;
++ (NSInteger)setGVAL:(NSInteger)AL;
++  (NSString *)iphoneType;
 @end

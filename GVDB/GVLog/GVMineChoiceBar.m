@@ -8,7 +8,7 @@
 #import "GVColor.h"
 #import "GVMineChoiceBar.h"
 
-#import "GVPrefixHeader.pch"
+
 #import "ViewController.h"
 @interface GVMineChoiceBar()
 

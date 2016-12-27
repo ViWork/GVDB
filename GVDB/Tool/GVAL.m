@@ -9,7 +9,7 @@
 #import "GVAL.h"
 
 @implementation GVAL
-- (NSInteger)setGVAL:(NSInteger)AL{
++ (NSInteger)setGVAL:(NSInteger)AL{
     NSInteger al;
     NSString *res =  [self iphoneType];
     if ([res isEqualToString:@"iPhone 7 Plus" ] && [res isEqualToString:@"iPhone 6s Plus"] )
@@ -24,7 +24,7 @@
     return GVAL;
 }
 
--  (NSString *)iphoneType {
++  (NSString *)iphoneType {
     struct utsname systemInfo;
 
     uname(&systemInfo);

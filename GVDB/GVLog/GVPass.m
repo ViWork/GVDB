@@ -7,7 +7,7 @@
 //
 
 #import "GVPass.h"
-#import "GVPrefixHeader.pch"
+
 @implementation GVPass
 - (instancetype)initWithFrame:(CGRect)frame{
     if (self = [super initWithFrame:frame]) {

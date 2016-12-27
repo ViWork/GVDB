@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "IMTabBarVC.h"
+#import "ViewController.h"
 #import "IMFirstRunViewController.h"
 @interface AppDelegate ()
 
@@ -25,7 +26,7 @@
     
     if ([[dic objectForKey:@"CFBundleVersion"] isEqualToString:[[NSUserDefaults standardUserDefaults] valueForKey:@"version"] ] ) {
         //主界面
-        self.window.rootViewController = [[IMTabBarVC alloc]init] ;
+        self.window.rootViewController = [[ViewController alloc]init] ;
         
     }else{
         
