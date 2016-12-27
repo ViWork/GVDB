@@ -11,8 +11,6 @@
 		9F38197044E652A4F8F433D8 /* libPods-GVDBTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AFB68CE853AF62A0FED18A /* libPods-GVDBTests.a */; };
 		AFCA7F0277A9B612A1C79C34 /* libPods-GVDBUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA540362C06EDC1E52804F1 /* libPods-GVDBUITests.a */; };
 		B54951941E114CE300DE0F6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B54951931E114CE300DE0F6B /* main.m */; };
-		B54951971E114CE300DE0F6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B54951961E114CE300DE0F6B /* AppDelegate.m */; };
-		B549519A1E114CE300DE0F6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54951991E114CE300DE0F6B /* ViewController.m */; };
 		B549519D1E114CE300DE0F6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B549519B1E114CE300DE0F6B /* Main.storyboard */; };
 		B549519F1E114CE300DE0F6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B549519E1E114CE300DE0F6B /* Assets.xcassets */; };
 		B54951A21E114CE300DE0F6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54951A01E114CE300DE0F6B /* LaunchScreen.storyboard */; };
@@ -47,10 +45,6 @@
 		B1AFB68CE853AF62A0FED18A /* libPods-GVDBTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GVDBTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B549518F1E114CE300DE0F6B /* GVDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GVDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54951931E114CE300DE0F6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B54951951E114CE300DE0F6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B54951961E114CE300DE0F6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B54951981E114CE300DE0F6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B54951991E114CE300DE0F6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B549519C1E114CE300DE0F6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B549519E1E114CE300DE0F6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B54951A11E114CE300DE0F6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -141,10 +135,8 @@
 		B54951911E114CE300DE0F6B /* GVDB */ = {
 			isa = PBXGroup;
 			children = (
-				B54951951E114CE300DE0F6B /* AppDelegate.h */,
-				B54951961E114CE300DE0F6B /* AppDelegate.m */,
-				B54951981E114CE300DE0F6B /* ViewController.h */,
-				B54951991E114CE300DE0F6B /* ViewController.m */,
+				980B09311E12444400BBC2F8 /* Main */,
+				980B09541E12444400BBC2F8 /* Root */,
 				B549519B1E114CE300DE0F6B /* Main.storyboard */,
 				B549519E1E114CE300DE0F6B /* Assets.xcassets */,
 				B54951A01E114CE300DE0F6B /* LaunchScreen.storyboard */,
@@ -463,9 +455,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B549519A1E114CE300DE0F6B /* ViewController.m in Sources */,
-				B54951971E114CE300DE0F6B /* AppDelegate.m in Sources */,
+				980B09591E12444400BBC2F8 /* IMDeliveryViewController.m in Sources */,
+				980B095B1E12444400BBC2F8 /* IMSuperTableV.m in Sources */,
+				980B09601E12444400BBC2F8 /* AppDelegate.m in Sources */,
+				980B095D1E12444400BBC2F8 /* IMNavigationVC.m in Sources */,
+				980B09611E12444400BBC2F8 /* ViewController.m in Sources */,
+				980B095F1E12444400BBC2F8 /* IMOrderViewController.m in Sources */,
+				980B095E1E12444400BBC2F8 /* IMTabBarVC.m in Sources */,
 				B54951941E114CE300DE0F6B /* main.m in Sources */,
+				980B095C1E12444400BBC2F8 /* IMMyViewController.m in Sources */,
+				980B095A1E12444400BBC2F8 /* IMHomeSuperViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,6 +613,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J396HKG633;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GVDB/Main/宏/PrefixHeader.pch";
 				INFOPLIST_FILE = GVDB/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -628,6 +629,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J396HKG633;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GVDB/Main/宏/PrefixHeader.pch";
 				INFOPLIST_FILE = GVDB/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
