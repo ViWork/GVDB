@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "IMTabBarVC.h"
+#import "IMFirstRunViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"Info.plist" ofType:nil];
+    NSDictionary *dic = [NSDictionary dictionaryWithContentsOfFile:path];
+    
+    if ([[dic objectForKey:@"CFBundleVersion"] isEqualToString:[[NSUserDefaults standardUserDefaults] valueForKey:@"version"] ] ) {
+        //主界面
+        self.window.rootViewController = [[IMTabBarVC alloc]init] ;
+        
+    }else{
+        
+        //欢迎界面
+        [[NSUserDefaults standardUserDefaults] setObject:[dic objectForKey:@"CFBundleVersion"] forKey:@"version"];
+        self.window.rootViewController = [[IMFirstRunViewController alloc]init] ;
+    }
+    
     return YES;
 }
 
