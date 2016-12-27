@@ -37,23 +37,19 @@
 		B58021911E12608C0048EEC1 /* GVColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B580218B1E12608C0048EEC1 /* GVColor.m */; };
 		B58021921E12608C0048EEC1 /* NetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B580218D1E12608C0048EEC1 /* NetworkRequest.m */; };
 		B58021931E12608C0048EEC1 /* UIView+GVExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B580218F1E12608C0048EEC1 /* UIView+GVExtension.m */; };
-		B58021A91E1263800048EEC1 /* GVFindPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021961E1263800048EEC1 /* GVFindPasswordView.m */; };
-		B58021AA1E1263800048EEC1 /* GVFindPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021981E1263800048EEC1 /* GVFindPasswordViewController.m */; };
-		B58021AB1E1263800048EEC1 /* GVMineChoiceBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B580219B1E1263800048EEC1 /* GVMineChoiceBar.m */; };
-		B58021AC1E1263800048EEC1 /* GVPass.m in Sources */ = {isa = PBXBuildFile; fileRef = B580219D1E1263800048EEC1 /* GVPass.m */; };
-		B58021AD1E1263800048EEC1 /* GVTel.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021A01E1263800048EEC1 /* GVTel.m */; };
-		B58021AE1E1263800048EEC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021A21E1263800048EEC1 /* ViewController.m */; };
-		B58021AF1E1263800048EEC1 /* 返回-3.png in Resources */ = {isa = PBXBuildFile; fileRef = B58021A31E1263800048EEC1 /* 返回-3.png */; };
-		B58021B01E1263800048EEC1 /* ResetView.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021A61E1263800048EEC1 /* ResetView.m */; };
-		B58021B11E1263800048EEC1 /* ResetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021A81E1263800048EEC1 /* ResetViewController.m */; };
-		B58021B31E1265080048EEC1 /* GVFindPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021961E1263800048EEC1 /* GVFindPasswordView.m */; };
-		B58021B41E1265090048EEC1 /* GVFindPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021961E1263800048EEC1 /* GVFindPasswordView.m */; };
-		B58021B51E12650D0048EEC1 /* GVFindPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021981E1263800048EEC1 /* GVFindPasswordViewController.m */; };
-		B58021B61E12650E0048EEC1 /* GVFindPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021981E1263800048EEC1 /* GVFindPasswordViewController.m */; };
-		B58021B71E1265150048EEC1 /* GVMineChoiceBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B580219B1E1263800048EEC1 /* GVMineChoiceBar.m */; };
-		B58021B81E1265150048EEC1 /* GVMineChoiceBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B580219B1E1263800048EEC1 /* GVMineChoiceBar.m */; };
-		B58021B91E1265180048EEC1 /* GVPass.m in Sources */ = {isa = PBXBuildFile; fileRef = B580219D1E1263800048EEC1 /* GVPass.m */; };
-		B58021BA1E1265180048EEC1 /* GVPass.m in Sources */ = {isa = PBXBuildFile; fileRef = B580219D1E1263800048EEC1 /* GVPass.m */; };
+		B58021D81E126C860048EEC1 /* GVFindPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021BD1E126C860048EEC1 /* GVFindPasswordView.m */; };
+		B58021D91E126C860048EEC1 /* GVFindPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021BF1E126C860048EEC1 /* GVFindPasswordViewController.m */; };
+		B58021DA1E126C860048EEC1 /* GVMineChoiceBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021C21E126C860048EEC1 /* GVMineChoiceBar.m */; };
+		B58021DB1E126C860048EEC1 /* GVPass.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021C41E126C860048EEC1 /* GVPass.m */; };
+		B58021DC1E126C860048EEC1 /* GVTel.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021C61E126C860048EEC1 /* GVTel.m */; };
+		B58021DD1E126C860048EEC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021C81E126C860048EEC1 /* ViewController.m */; };
+		B58021DE1E126C860048EEC1 /* 返回-3.png in Resources */ = {isa = PBXBuildFile; fileRef = B58021C91E126C860048EEC1 /* 返回-3.png */; };
+		B58021DF1E126C860048EEC1 /* ResetView.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021CC1E126C860048EEC1 /* ResetView.m */; };
+		B58021E01E126C860048EEC1 /* ResetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021CE1E126C860048EEC1 /* ResetViewController.m */; };
+		B58021E11E126C860048EEC1 /* GVAL.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021D11E126C860048EEC1 /* GVAL.m */; };
+		B58021E21E126C860048EEC1 /* GVColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021D31E126C860048EEC1 /* GVColor.m */; };
+		B58021E31E126C860048EEC1 /* NetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021D51E126C860048EEC1 /* NetworkRequest.m */; };
+		B58021E41E126C860048EEC1 /* UIView+GVExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B58021D71E126C860048EEC1 /* UIView+GVExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,23 +124,31 @@
 		B580218D1E12608C0048EEC1 /* NetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkRequest.m; sourceTree = "<group>"; };
 		B580218E1E12608C0048EEC1 /* UIView+GVExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GVExtension.h"; sourceTree = "<group>"; };
 		B580218F1E12608C0048EEC1 /* UIView+GVExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GVExtension.m"; sourceTree = "<group>"; };
-		B58021951E1263800048EEC1 /* GVFindPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVFindPasswordView.h; sourceTree = "<group>"; };
-		B58021961E1263800048EEC1 /* GVFindPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVFindPasswordView.m; sourceTree = "<group>"; };
-		B58021971E1263800048EEC1 /* GVFindPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVFindPasswordViewController.h; sourceTree = "<group>"; };
-		B58021981E1263800048EEC1 /* GVFindPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVFindPasswordViewController.m; sourceTree = "<group>"; };
-		B580219A1E1263800048EEC1 /* GVMineChoiceBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVMineChoiceBar.h; sourceTree = "<group>"; };
-		B580219B1E1263800048EEC1 /* GVMineChoiceBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVMineChoiceBar.m; sourceTree = "<group>"; };
-		B580219C1E1263800048EEC1 /* GVPass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVPass.h; sourceTree = "<group>"; };
-		B580219D1E1263800048EEC1 /* GVPass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVPass.m; sourceTree = "<group>"; };
-		B580219F1E1263800048EEC1 /* GVTel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVTel.h; sourceTree = "<group>"; };
-		B58021A01E1263800048EEC1 /* GVTel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVTel.m; sourceTree = "<group>"; };
-		B58021A11E1263800048EEC1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B58021A21E1263800048EEC1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B58021A31E1263800048EEC1 /* 返回-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回-3.png"; sourceTree = "<group>"; };
-		B58021A51E1263800048EEC1 /* ResetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetView.h; sourceTree = "<group>"; };
-		B58021A61E1263800048EEC1 /* ResetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetView.m; sourceTree = "<group>"; };
-		B58021A71E1263800048EEC1 /* ResetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetViewController.h; sourceTree = "<group>"; };
-		B58021A81E1263800048EEC1 /* ResetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetViewController.m; sourceTree = "<group>"; };
+		B58021BC1E126C860048EEC1 /* GVFindPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVFindPasswordView.h; sourceTree = "<group>"; };
+		B58021BD1E126C860048EEC1 /* GVFindPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVFindPasswordView.m; sourceTree = "<group>"; };
+		B58021BE1E126C860048EEC1 /* GVFindPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVFindPasswordViewController.h; sourceTree = "<group>"; };
+		B58021BF1E126C860048EEC1 /* GVFindPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVFindPasswordViewController.m; sourceTree = "<group>"; };
+		B58021C11E126C860048EEC1 /* GVMineChoiceBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVMineChoiceBar.h; sourceTree = "<group>"; };
+		B58021C21E126C860048EEC1 /* GVMineChoiceBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVMineChoiceBar.m; sourceTree = "<group>"; };
+		B58021C31E126C860048EEC1 /* GVPass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVPass.h; sourceTree = "<group>"; };
+		B58021C41E126C860048EEC1 /* GVPass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVPass.m; sourceTree = "<group>"; };
+		B58021C51E126C860048EEC1 /* GVTel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVTel.h; sourceTree = "<group>"; };
+		B58021C61E126C860048EEC1 /* GVTel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVTel.m; sourceTree = "<group>"; };
+		B58021C71E126C860048EEC1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B58021C81E126C860048EEC1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B58021C91E126C860048EEC1 /* 返回-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回-3.png"; sourceTree = "<group>"; };
+		B58021CB1E126C860048EEC1 /* ResetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetView.h; sourceTree = "<group>"; };
+		B58021CC1E126C860048EEC1 /* ResetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetView.m; sourceTree = "<group>"; };
+		B58021CD1E126C860048EEC1 /* ResetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetViewController.h; sourceTree = "<group>"; };
+		B58021CE1E126C860048EEC1 /* ResetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetViewController.m; sourceTree = "<group>"; };
+		B58021D01E126C860048EEC1 /* GVAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVAL.h; sourceTree = "<group>"; };
+		B58021D11E126C860048EEC1 /* GVAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVAL.m; sourceTree = "<group>"; };
+		B58021D21E126C860048EEC1 /* GVColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVColor.h; sourceTree = "<group>"; };
+		B58021D31E126C860048EEC1 /* GVColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVColor.m; sourceTree = "<group>"; };
+		B58021D41E126C860048EEC1 /* NetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkRequest.h; sourceTree = "<group>"; };
+		B58021D51E126C860048EEC1 /* NetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkRequest.m; sourceTree = "<group>"; };
+		B58021D61E126C860048EEC1 /* UIView+GVExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GVExtension.h"; sourceTree = "<group>"; };
+		B58021D71E126C860048EEC1 /* UIView+GVExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GVExtension.m"; sourceTree = "<group>"; };
 		D61814A8F4B98191D8F9593E /* Pods-GVDBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVDBUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GVDBUITests/Pods-GVDBUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DAA1F4100B65F22D5D08E00A /* libPods-GVDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GVDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -411,7 +415,10 @@
 		9872342E1E1259AF004A4448 /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				B58021B21E12638B0048EEC1 /* Login */,
+				B58021BB1E126C860048EEC1 /* GVFindOassword */,
+				B58021C01E126C860048EEC1 /* GVLog */,
+				B58021CA1E126C860048EEC1 /* Reset */,
+				B58021CF1E126C860048EEC1 /* Tool */,
 				9872342F1E1259AF004A4448 /* AppDelegate.h */,
 				987234301E1259AF004A4448 /* AppDelegate.m */,
 			);
@@ -496,53 +503,57 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
-		B58021941E1263800048EEC1 /* GVFindOassword */ = {
+		B58021BB1E126C860048EEC1 /* GVFindOassword */ = {
 			isa = PBXGroup;
 			children = (
-				B58021951E1263800048EEC1 /* GVFindPasswordView.h */,
-				B58021961E1263800048EEC1 /* GVFindPasswordView.m */,
-				B58021971E1263800048EEC1 /* GVFindPasswordViewController.h */,
-				B58021981E1263800048EEC1 /* GVFindPasswordViewController.m */,
+				B58021BC1E126C860048EEC1 /* GVFindPasswordView.h */,
+				B58021BD1E126C860048EEC1 /* GVFindPasswordView.m */,
+				B58021BE1E126C860048EEC1 /* GVFindPasswordViewController.h */,
+				B58021BF1E126C860048EEC1 /* GVFindPasswordViewController.m */,
 			);
 			path = GVFindOassword;
 			sourceTree = "<group>";
 		};
-		B58021991E1263800048EEC1 /* GVLog */ = {
+		B58021C01E126C860048EEC1 /* GVLog */ = {
 			isa = PBXGroup;
 			children = (
-				B580219A1E1263800048EEC1 /* GVMineChoiceBar.h */,
-				B580219B1E1263800048EEC1 /* GVMineChoiceBar.m */,
-				B580219C1E1263800048EEC1 /* GVPass.h */,
-				B580219D1E1263800048EEC1 /* GVPass.m */,
-				B580219F1E1263800048EEC1 /* GVTel.h */,
-				B58021A01E1263800048EEC1 /* GVTel.m */,
-				B58021A11E1263800048EEC1 /* ViewController.h */,
-				B58021A21E1263800048EEC1 /* ViewController.m */,
-				B58021A31E1263800048EEC1 /* 返回-3.png */,
+				B58021C11E126C860048EEC1 /* GVMineChoiceBar.h */,
+				B58021C21E126C860048EEC1 /* GVMineChoiceBar.m */,
+				B58021C31E126C860048EEC1 /* GVPass.h */,
+				B58021C41E126C860048EEC1 /* GVPass.m */,
+				B58021C51E126C860048EEC1 /* GVTel.h */,
+				B58021C61E126C860048EEC1 /* GVTel.m */,
+				B58021C71E126C860048EEC1 /* ViewController.h */,
+				B58021C81E126C860048EEC1 /* ViewController.m */,
+				B58021C91E126C860048EEC1 /* 返回-3.png */,
 			);
 			path = GVLog;
 			sourceTree = "<group>";
 		};
-		B58021A41E1263800048EEC1 /* Reset */ = {
+		B58021CA1E126C860048EEC1 /* Reset */ = {
 			isa = PBXGroup;
 			children = (
-				B58021A51E1263800048EEC1 /* ResetView.h */,
-				B58021A61E1263800048EEC1 /* ResetView.m */,
-				B58021A71E1263800048EEC1 /* ResetViewController.h */,
-				B58021A81E1263800048EEC1 /* ResetViewController.m */,
+				B58021CB1E126C860048EEC1 /* ResetView.h */,
+				B58021CC1E126C860048EEC1 /* ResetView.m */,
+				B58021CD1E126C860048EEC1 /* ResetViewController.h */,
+				B58021CE1E126C860048EEC1 /* ResetViewController.m */,
 			);
 			path = Reset;
 			sourceTree = "<group>";
 		};
-		B58021B21E12638B0048EEC1 /* Login */ = {
+		B58021CF1E126C860048EEC1 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				B58021941E1263800048EEC1 /* GVFindOassword */,
-				B58021991E1263800048EEC1 /* GVLog */,
-				B58021A41E1263800048EEC1 /* Reset */,
+				B58021D01E126C860048EEC1 /* GVAL.h */,
+				B58021D11E126C860048EEC1 /* GVAL.m */,
+				B58021D21E126C860048EEC1 /* GVColor.h */,
+				B58021D31E126C860048EEC1 /* GVColor.m */,
+				B58021D41E126C860048EEC1 /* NetworkRequest.h */,
+				B58021D51E126C860048EEC1 /* NetworkRequest.m */,
+				B58021D61E126C860048EEC1 /* UIView+GVExtension.h */,
+				B58021D71E126C860048EEC1 /* UIView+GVExtension.m */,
 			);
-			name = Login;
-			path = ..;
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -664,7 +675,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B54951A21E114CE300DE0F6B /* LaunchScreen.storyboard in Resources */,
-				B58021AF1E1263800048EEC1 /* 返回-3.png in Resources */,
+				B58021DE1E126C860048EEC1 /* 返回-3.png in Resources */,
 				B549519F1E114CE300DE0F6B /* Assets.xcassets in Resources */,
 				B549519D1E114CE300DE0F6B /* Main.storyboard in Resources */,
 				9872343C1E1259AF004A4448 /* indent_up@2x.png in Resources */,
@@ -837,28 +848,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B58021AE1E1263800048EEC1 /* ViewController.m in Sources */,
 				B58021931E12608C0048EEC1 /* UIView+GVExtension.m in Sources */,
 				987234361E1259AF004A4448 /* IMSuperTableV.m in Sources */,
-				B58021AB1E1263800048EEC1 /* GVMineChoiceBar.m in Sources */,
+				B58021DF1E126C860048EEC1 /* ResetView.m in Sources */,
 				B58021911E12608C0048EEC1 /* GVColor.m in Sources */,
-				B58021AD1E1263800048EEC1 /* GVTel.m in Sources */,
 				987234331E1259AF004A4448 /* IMDeliveryViewController.m in Sources */,
 				987234421E1259AF004A4448 /* IMOrderViewController.m in Sources */,
-				B58021B01E1263800048EEC1 /* ResetView.m in Sources */,
 				B58021921E12608C0048EEC1 /* NetworkRequest.m in Sources */,
+				B58021E11E126C860048EEC1 /* GVAL.m in Sources */,
+				B58021E21E126C860048EEC1 /* GVColor.m in Sources */,
 				987234411E1259AF004A4448 /* IMTabBarVC.m in Sources */,
-				B58021AA1E1263800048EEC1 /* GVFindPasswordViewController.m in Sources */,
 				987234431E1259AF004A4448 /* AppDelegate.m in Sources */,
-				B58021AC1E1263800048EEC1 /* GVPass.m in Sources */,
 				987234371E1259AF004A4448 /* IMMyViewController.m in Sources */,
-				B58021B11E1263800048EEC1 /* ResetViewController.m in Sources */,
+				B58021D91E126C860048EEC1 /* GVFindPasswordViewController.m in Sources */,
+				B58021DC1E126C860048EEC1 /* GVTel.m in Sources */,
+				B58021E01E126C860048EEC1 /* ResetViewController.m in Sources */,
+				B58021DA1E126C860048EEC1 /* GVMineChoiceBar.m in Sources */,
+				B58021E31E126C860048EEC1 /* NetworkRequest.m in Sources */,
 				B58021901E12608C0048EEC1 /* GVAL.m in Sources */,
-				B58021A91E1263800048EEC1 /* GVFindPasswordView.m in Sources */,
 				987234341E1259AF004A4448 /* IMFirstRunViewController.m in Sources */,
+				B58021DD1E126C860048EEC1 /* ViewController.m in Sources */,
 				B54951941E114CE300DE0F6B /* main.m in Sources */,
+				B58021E41E126C860048EEC1 /* UIView+GVExtension.m in Sources */,
 				987234351E1259AF004A4448 /* IMHomeSuperViewController.m in Sources */,
 				987234381E1259AF004A4448 /* IMNavigationVC.m in Sources */,
+				B58021D81E126C860048EEC1 /* GVFindPasswordView.m in Sources */,
+				B58021DB1E126C860048EEC1 /* GVPass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -867,10 +882,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B54951AD1E114CE300DE0F6B /* GVDBTests.m in Sources */,
-				B58021B91E1265180048EEC1 /* GVPass.m in Sources */,
-				B58021B31E1265080048EEC1 /* GVFindPasswordView.m in Sources */,
-				B58021B71E1265150048EEC1 /* GVMineChoiceBar.m in Sources */,
-				B58021B51E12650D0048EEC1 /* GVFindPasswordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -879,10 +890,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B54951B81E114CE300DE0F6B /* GVDBUITests.m in Sources */,
-				B58021BA1E1265180048EEC1 /* GVPass.m in Sources */,
-				B58021B41E1265090048EEC1 /* GVFindPasswordView.m in Sources */,
-				B58021B81E1265150048EEC1 /* GVMineChoiceBar.m in Sources */,
-				B58021B61E12650E0048EEC1 /* GVFindPasswordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
