@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BBAC9B346439C227412A452 /* libPods-GVDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA1F4100B65F22D5D08E00A /* libPods-GVDB.a */; };
+		9F38197044E652A4F8F433D8 /* libPods-GVDBTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AFB68CE853AF62A0FED18A /* libPods-GVDBTests.a */; };
+		AFCA7F0277A9B612A1C79C34 /* libPods-GVDBUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA540362C06EDC1E52804F1 /* libPods-GVDBUITests.a */; };
 		B54951941E114CE300DE0F6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B54951931E114CE300DE0F6B /* main.m */; };
 		B54951971E114CE300DE0F6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B54951961E114CE300DE0F6B /* AppDelegate.m */; };
 		B549519A1E114CE300DE0F6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54951991E114CE300DE0F6B /* ViewController.m */; };
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		026C589B03BA9B5607076783 /* Pods-GVDBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVDBTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GVDBTests/Pods-GVDBTests.debug.xcconfig"; sourceTree = "<group>"; };
+		27E02A5C3583EF83802C70DC /* Pods-GVDBUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVDBUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GVDBUITests/Pods-GVDBUITests.release.xcconfig"; sourceTree = "<group>"; };
+		49DF9B3C66120515D61075F4 /* Pods-GVDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GVDB/Pods-GVDB.debug.xcconfig"; sourceTree = "<group>"; };
+		527AE96236CED8D501777820 /* Pods-GVDBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVDBTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GVDBTests/Pods-GVDBTests.release.xcconfig"; sourceTree = "<group>"; };
+		6EA540362C06EDC1E52804F1 /* libPods-GVDBUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GVDBUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF8A7864D89C2CF0348510B /* Pods-GVDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-GVDB/Pods-GVDB.release.xcconfig"; sourceTree = "<group>"; };
+		B1AFB68CE853AF62A0FED18A /* libPods-GVDBTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GVDBTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B549518F1E114CE300DE0F6B /* GVDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GVDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54951931E114CE300DE0F6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B54951951E114CE300DE0F6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,8 @@
 		B54951B31E114CE300DE0F6B /* GVDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GVDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54951B71E114CE300DE0F6B /* GVDBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GVDBUITests.m; sourceTree = "<group>"; };
 		B54951B91E114CE300DE0F6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D61814A8F4B98191D8F9593E /* Pods-GVDBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVDBUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GVDBUITests/Pods-GVDBUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAA1F4100B65F22D5D08E00A /* libPods-GVDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GVDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BBAC9B346439C227412A452 /* libPods-GVDB.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F38197044E652A4F8F433D8 /* libPods-GVDBTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFCA7F0277A9B612A1C79C34 /* libPods-GVDBUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		303E528D6055D7100D29EDD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49DF9B3C66120515D61075F4 /* Pods-GVDB.debug.xcconfig */,
+				8CF8A7864D89C2CF0348510B /* Pods-GVDB.release.xcconfig */,
+				026C589B03BA9B5607076783 /* Pods-GVDBTests.debug.xcconfig */,
+				527AE96236CED8D501777820 /* Pods-GVDBTests.release.xcconfig */,
+				D61814A8F4B98191D8F9593E /* Pods-GVDBUITests.debug.xcconfig */,
+				27E02A5C3583EF83802C70DC /* Pods-GVDBUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		45573FE44B75D52BF79ADE20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAA1F4100B65F22D5D08E00A /* libPods-GVDB.a */,
+				B1AFB68CE853AF62A0FED18A /* libPods-GVDBTests.a */,
+				6EA540362C06EDC1E52804F1 /* libPods-GVDBUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B54951861E114CE300DE0F6B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				B54951AB1E114CE300DE0F6B /* GVDBTests */,
 				B54951B61E114CE300DE0F6B /* GVDBUITests */,
 				B54951901E114CE300DE0F6B /* Products */,
+				303E528D6055D7100D29EDD1 /* Pods */,
+				45573FE44B75D52BF79ADE20 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B54951BC1E114CE300DE0F6B /* Build configuration list for PBXNativeTarget "GVDB" */;
 			buildPhases = (
+				B40A3BA12AFCC788024BA0F8 /* [CP] Check Pods Manifest.lock */,
 				B549518B1E114CE300DE0F6B /* Sources */,
 				B549518C1E114CE300DE0F6B /* Frameworks */,
 				B549518D1E114CE300DE0F6B /* Resources */,
+				C0FB71E74141661282A10CA0 /* [CP] Embed Pods Frameworks */,
+				45C73186637A936B80C9AFD7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B54951BF1E114CE300DE0F6B /* Build configuration list for PBXNativeTarget "GVDBTests" */;
 			buildPhases = (
+				0F237DACB8461DFF09E9B8F7 /* [CP] Check Pods Manifest.lock */,
 				B54951A41E114CE300DE0F6B /* Sources */,
 				B54951A51E114CE300DE0F6B /* Frameworks */,
 				B54951A61E114CE300DE0F6B /* Resources */,
+				7597320C8005CD9498686BDF /* [CP] Embed Pods Frameworks */,
+				A98FEF1BFD433F8746B27C59 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B54951C21E114CE300DE0F6B /* Build configuration list for PBXNativeTarget "GVDBUITests" */;
 			buildPhases = (
+				F6BBB70F41FE5B339DF25AFF /* [CP] Check Pods Manifest.lock */,
 				B54951AF1E114CE300DE0F6B /* Sources */,
 				B54951B01E114CE300DE0F6B /* Frameworks */,
 				B54951B11E114CE300DE0F6B /* Resources */,
+				4BCC11FB45F1D98AFA5D0F62 /* [CP] Embed Pods Frameworks */,
+				644464B5742A1230FC49CA5F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +319,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F237DACB8461DFF09E9B8F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		45C73186637A936B80C9AFD7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GVDB/Pods-GVDB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BCC11FB45F1D98AFA5D0F62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GVDBUITests/Pods-GVDBUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		644464B5742A1230FC49CA5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GVDBUITests/Pods-GVDBUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7597320C8005CD9498686BDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GVDBTests/Pods-GVDBTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A98FEF1BFD433F8746B27C59 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GVDBTests/Pods-GVDBTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B40A3BA12AFCC788024BA0F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0FB71E74141661282A10CA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GVDB/Pods-GVDB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6BBB70F41FE5B339DF25AFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B549518B1E114CE300DE0F6B /* Sources */ = {
@@ -423,6 +610,7 @@
 		};
 		B54951BD1E114CE300DE0F6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49DF9B3C66120515D61075F4 /* Pods-GVDB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J396HKG633;
@@ -436,6 +624,7 @@
 		};
 		B54951BE1E114CE300DE0F6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CF8A7864D89C2CF0348510B /* Pods-GVDB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J396HKG633;
@@ -449,6 +638,7 @@
 		};
 		B54951C01E114CE300DE0F6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 026C589B03BA9B5607076783 /* Pods-GVDBTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = J396HKG633;
@@ -462,6 +652,7 @@
 		};
 		B54951C11E114CE300DE0F6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 527AE96236CED8D501777820 /* Pods-GVDBTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = J396HKG633;
@@ -475,6 +666,7 @@
 		};
 		B54951C31E114CE300DE0F6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D61814A8F4B98191D8F9593E /* Pods-GVDBUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = J396HKG633;
 				INFOPLIST_FILE = GVDBUITests/Info.plist;
@@ -487,6 +679,7 @@
 		};
 		B54951C41E114CE300DE0F6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27E02A5C3583EF83802C70DC /* Pods-GVDBUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = J396HKG633;
 				INFOPLIST_FILE = GVDBUITests/Info.plist;
