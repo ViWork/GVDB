@@ -32,19 +32,8 @@
     self.navigationController.delegate =self ;
 }
 
-#pragma mark ---UINavigationController  协议
 
-- (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated
-{
-    if ([viewController isKindOfClass:[IMHomeSuperViewController class]]) {
-        [navigationController setNavigationBarHidden:YES animated:YES] ;
-    }
-    else{
-        [navigationController setNavigationBarHidden:NO animated:YES] ;
-    }
-}
-
-
+// 主界面的tableVIew
 -(void)addSuperView
 {
     _superTabV = [[IMSuperTableV alloc]initWithFrame:CGRectMake(0, SIZE(88.0), ScreenWIDTH, ScreenHEIGHT - SIZE(128.0)- 44 )] ;
@@ -58,6 +47,7 @@
     self.view = _superTabV ;
 }
 
+// 顶部 VIew
 -(void)addTopView{
     _topV = [[IMTopV alloc]initWithFrame:CGRectMake(0,SIZE(40.0), ScreenWIDTH, SIZE(88.0)) ] ;
     _topV.backgroundColor = [UIColor whiteColor] ;
@@ -68,11 +58,25 @@
     [self.view addSubview:topOneV] ;
 }
 
+// tableView的  表头
 -(UIView *)setHeaderView{
     _headerView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, ScreenWIDTH,SIZE(headerViewHeight) ) ];
     _headerView.backgroundColor = [UIColor purpleColor] ;
     return _headerView ;
 }
+
+#pragma mark ---UINavigationController  协议
+
+- (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated
+{
+    if ([viewController isKindOfClass:[IMHomeSuperViewController class]]) {
+        [navigationController setNavigationBarHidden:YES animated:YES] ;
+    }
+    else{
+        [navigationController setNavigationBarHidden:NO animated:YES] ;
+    }
+}
+
 
 #pragma mark --- tableVIew  协议
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
