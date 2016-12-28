@@ -16,7 +16,7 @@
         _leftBtn = [UIButton buttonWithType:UIButtonTypeCustom] ;
         [_leftBtn setTitle:@"定位" forState:UIControlStateNormal];
         [_leftBtn setTitleColor:[GVColor hexStringToColor:@"#333333"] forState:UIControlStateNormal] ;
-        _leftBtn.titleLabel.font  = [UIFont systemFontOfSize:SIZE(32.0, SIZE_Type)] ;
+        _leftBtn.titleLabel.font  = [UIFont systemFontOfSize:SIZE(32.0)] ;
     }
     return _leftBtn ;
 }
@@ -58,9 +58,9 @@
         [_searchBar setImage:[UIImage imageNamed:@"search"] forSearchBarIcon:UISearchBarIconSearch state:UIControlStateNormal] ;
         
         _searchBar.layer.masksToBounds = YES ;
-        _searchBar.layer.cornerRadius = SIZE(26.0, SIZE_Type) ;
+        _searchBar.layer.cornerRadius = SIZE(26.0) ;
         _searchBar.layer.borderColor = [[GVColor hexStringToColor:@"#dddddd"]CGColor] ;
-        _searchBar.layer.borderWidth = SIZE(1.0, SIZE_Type) ;
+        _searchBar.layer.borderWidth = SIZE(1.0) ;
         _searchBar.delegate = self ;
     }
     return _searchBar ;
@@ -87,28 +87,28 @@
     [super layoutSubviews] ;
     
     [_leftBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo (self.mas_left).offset(SIZE(24.0, SIZE_Type)) ;
+        make.left.mas_equalTo (self.mas_left).offset(SIZE(24.0)) ;
         make.centerY.mas_equalTo (self.mas_centerY) ;
     }] ;
     
     [_topImg mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo (self.leftBtn.mas_right).offset(SIZE(16.0, SIZE_Type)) ;
-        make.height.mas_equalTo (SIZE(14.0, SIZE_Type)) ;
-        make.width.mas_equalTo (SIZE(22.0, SIZE_Type)) ;
+        make.left.mas_equalTo (self.leftBtn.mas_right).offset(SIZE(16.0)) ;
+        make.height.mas_equalTo (SIZE(14.0)) ;
+        make.width.mas_equalTo (SIZE(22.0)) ;
         make.centerY.mas_equalTo (self.mas_centerY) ;
     }] ;
     
     [_searchBar mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo (self.topImg.mas_right).offset (SIZE(56.0, SIZE_Type)) ;
-        make.top.mas_equalTo (self.mas_top).offset (SIZE(18.0, SIZE_Type)) ;
-        make.height.mas_equalTo (SIZE(52.0, SIZE_Type)) ;
-        make.width.mas_equalTo (SIZE(460.0, SIZE_Type)) ;
+        make.left.mas_equalTo (self.topImg.mas_right).offset (SIZE(56.0)) ;
+        make.top.mas_equalTo (self.mas_top).offset (SIZE(18.0)) ;
+        make.height.mas_equalTo (SIZE(52.0)) ;
+        make.width.mas_equalTo (SIZE(460.0)) ;
     }] ;
     
     [_rightBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerY.mas_equalTo (self.mas_centerY) ;
         make.left.mas_equalTo (self.searchBar.mas_right).offset (26) ;
-        make.width.and.height.mas_equalTo (SIZE(30.0, SIZE_Type)) ;
+        make.width.and.height.mas_equalTo (SIZE(30.0)) ;
     }] ;
 }
 // 取消搜索
