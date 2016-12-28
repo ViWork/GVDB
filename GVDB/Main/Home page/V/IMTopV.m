@@ -13,19 +13,18 @@
 /* 控件懒加载 */
 -(UIButton *)leftBtn{
     if (!_leftBtn) {
-        _leftBtn = [[UIButton alloc]initWithFrame:CGRectMake(5, 10, 80, 40)] ;
-        _leftBtn.frame = CGRectMake(10, 10, 80, 30);
+        _leftBtn = [UIButton buttonWithType:UIButtonTypeCustom] ;
         [_leftBtn setTitle:@"定位" forState:UIControlStateNormal];
         [_leftBtn setTitleColor:[GVColor hexStringToColor:@"#333333"] forState:UIControlStateNormal] ;
+        _leftBtn.titleLabel.font  = [UIFont systemFontOfSize:SIZE(32.0, SIZE_Type)] ;
     }
     return _leftBtn ;
 }
 
 -(UIButton *)rightBtn{
     if (!_rightBtn) {
-        _rightBtn = [[UIButton alloc]initWithFrame:CGRectMake(5, 10, 80, 40)] ;
-        _rightBtn.frame = CGRectMake(10, 10, 80, 30);
-        [_rightBtn setImage:[UIImage imageNamed:@"more@2x"] forState:UIControlStateNormal];
+        _rightBtn = [UIButton buttonWithType:UIButtonTypeCustom] ;
+        [_rightBtn setImage:[UIImage imageNamed:@"more"] forState:UIControlStateNormal];
         [_rightBtn setTitleColor:[GVColor hexStringToColor:@"#333333"] forState:UIControlStateNormal] ;
     }
     return _rightBtn ;
@@ -33,25 +32,22 @@
 
 -(UIImageView *)topImg{
     if (!_topImg) {
-        _topImg = [[UIImageView alloc]initWithFrame:CGRectMake(90, 15, 30, 30)] ;
-        _topImg.image = [UIImage imageNamed:@"arrows@2x"] ;
+        _topImg = [[UIImageView alloc]init] ;
+        _topImg.image = [UIImage imageNamed:@"arrows"] ;
     }
     return _topImg ;
 }
 
 -(UISearchBar *)searchBar{
     if (!_searchBar) {
-        _searchBar  = [[UISearchBar alloc]initWithFrame:CGRectMake(0, 10, 375, 30)] ;
+        _searchBar  = [[UISearchBar alloc]init] ;
         
         // searchBar  属性设置
         _searchBar.searchBarStyle = UISearchBarStyleDefault ;
-        //_searchBar.text  =@"搜索" ;
-        _searchBar.placeholder = @"输入搜索" ;
-        //_searchBar.prompt = @"prompt" ;
-        _searchBar.showsCancelButton = YES ;
-        //_searchBar.showsBookmarkButton = YES ;
-        _searchBar.showsSearchResultsButton = YES ;
-        _searchBar.tintColor = [UIColor orangeColor] ;
+        _searchBar.placeholder = @"输入商家丶商圈" ;
+//        _searchBar.showsCancelButton = YES ;
+//        _searchBar.showsSearchResultsButton = YES ;
+//        _searchBar.tintColor = [UIColor orangeColor] ;
         //_searchBar.barTintColor = [UIColor purpleColor] ;
         _searchBar.translucent = YES ;
         
@@ -59,12 +55,17 @@
         //_searchBar.searchFieldBackgroundPositionAdjustment = UIOffsetMake(20, 0) ;
         // _searchBar.searchTextPositionAdjustment = UIOffsetMake(50, 0) ;
         
-        //    searchBar setImage:<#(nullable UIImage *)#> forSearchBarIcon:<#(UISearchBarIcon)#> state:<#(UIControlState)#>
+        [_searchBar setImage:[UIImage imageNamed:@"search"] forSearchBarIcon:UISearchBarIconSearch state:UIControlStateNormal] ;
         
-//        _searchBar.delegate = self ;
+        _searchBar.layer.masksToBounds = YES ;
+        _searchBar.layer.cornerRadius = SIZE(26.0, SIZE_Type) ;
+        _searchBar.layer.borderColor = [[GVColor hexStringToColor:@"#dddddd"]CGColor] ;
+        _searchBar.layer.borderWidth = SIZE(1.0, SIZE_Type) ;
+        _searchBar.delegate = self ;
     }
     return _searchBar ;
 }
+
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
@@ -76,5 +77,38 @@
         [self addSubview:self.rightBtn] ;
     }
     return self;
+}
+
+-(void)layoutSubviews{
+    [super layoutSubviews] ;
+    
+    [_leftBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo (self.mas_left).offset(SIZE(24.0, SIZE_Type)) ;
+        make.centerY.mas_equalTo (self.mas_centerY) ;
+    }] ;
+    
+    [_topImg mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo (self.leftBtn.mas_right).offset(SIZE(16.0, SIZE_Type)) ;
+        make.height.mas_equalTo (SIZE(14.0, SIZE_Type)) ;
+        make.width.mas_equalTo (SIZE(22.0, SIZE_Type)) ;
+        make.centerY.mas_equalTo (self.mas_centerY) ;
+    }] ;
+    
+    [_searchBar mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo (self.topImg.mas_right).offset (SIZE(56.0, SIZE_Type)) ;
+        make.top.mas_equalTo (self.mas_top).offset (SIZE(18.0, SIZE_Type)) ;
+        make.height.mas_equalTo (SIZE(52.0, SIZE_Type)) ;
+        make.width.mas_equalTo (SIZE(460.0, SIZE_Type)) ;
+    }] ;
+    
+    [_rightBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerY.mas_equalTo (self.mas_centerY) ;
+        make.left.mas_equalTo (self.searchBar.mas_right).offset (26) ;
+        make.width.and.height.mas_equalTo (SIZE(30.0, SIZE_Type)) ;
+    }] ;
+}
+// 取消搜索
+- (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar{
+    [_searchBar endEditing:YES] ;
 }
 @end

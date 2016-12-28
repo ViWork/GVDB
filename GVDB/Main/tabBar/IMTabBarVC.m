@@ -35,7 +35,7 @@
     nvc4.tabBarItem = [self itemWithSelectedImage:@"take_up" image:@"take_down" title:@"我的"] ;
     //统一用tabbar来管理navigationController
     self.viewControllers = @[nvc1, nvc2, nvc3, nvc4];
-    self.tabBar.tintColor = [UIColor greenColor];
+    self.tabBar.tintColor = [GVColor hexStringToColor:@"#ffba14"];
     self.tabBar.barTintColor = [UIColor whiteColor];
     
 }
