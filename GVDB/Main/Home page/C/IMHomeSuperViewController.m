@@ -47,7 +47,7 @@
 
 -(void)addSuperView
 {
-    _superTabV = [[IMSuperTableV alloc]initWithFrame:CGRectMake(0, SIZE(88.0, SIZE_Type), ScreenWIDTH, ScreenHEIGHT - SIZE(128.0, SIZE_Type)- 44 )] ;
+    _superTabV = [[IMSuperTableV alloc]initWithFrame:CGRectMake(0, SIZE(88.0), ScreenWIDTH, ScreenHEIGHT - SIZE(128.0)- 44 )] ;
     _superTabV.tableView.delegate = self ;
     _superTabV.tableView.dataSource = self ;
     _superTabV.tableView.sectionHeaderHeight = [GVAL setGVAL:headerViewHeight] ;
@@ -59,17 +59,17 @@
 }
 
 -(void)addTopView{
-    _topV = [[IMTopV alloc]initWithFrame:CGRectMake(0,SIZE(40.0, SIZE_Type), ScreenWIDTH, SIZE(88.0, SIZE_Type)) ] ;
+    _topV = [[IMTopV alloc]initWithFrame:CGRectMake(0,SIZE(40.0), ScreenWIDTH, SIZE(88.0)) ] ;
     _topV.backgroundColor = [UIColor whiteColor] ;
     [self.view addSubview: _topV] ;
     
-    IMTopOneV *topOneV = [[IMTopOneV alloc]initWithFrame:CGRectMake(0, 0, ScreenWIDTH, SIZE(40.0, SIZE_Type))] ;
+    IMTopOneV *topOneV = [[IMTopOneV alloc]initWithFrame:CGRectMake(0, 0, ScreenWIDTH, SIZE(40.0))] ;
     topOneV.backgroundColor = [GVColor hexStringToColor:@"ffba14"] ;
     [self.view addSubview:topOneV] ;
 }
 
 -(UIView *)setHeaderView{
-    _headerView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, ScreenWIDTH,SIZE(headerViewHeight, SIZE_Type) ) ];
+    _headerView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, ScreenWIDTH,SIZE(headerViewHeight) ) ];
     _headerView.backgroundColor = [UIColor purpleColor] ;
     return _headerView ;
 }
