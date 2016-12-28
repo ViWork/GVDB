@@ -69,7 +69,7 @@
 }
 
 -(UIView *)setHeaderView{
-    _headerView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, ScreenWIDTH,[GVAL setGVAL:headerViewHeight]) ];
+    _headerView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, ScreenWIDTH,SIZE(headerViewHeight, SIZE_Type) ) ];
     _headerView.backgroundColor = [UIColor purpleColor] ;
     return _headerView ;
 }
@@ -89,14 +89,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
