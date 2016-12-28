@@ -51,10 +51,10 @@
         //_searchBar.barTintColor = [UIColor purpleColor] ;
         _searchBar.translucent = YES ;
         
-        // 输入框和输入文字的调整
-        //_searchBar.searchFieldBackgroundPositionAdjustment = UIOffsetMake(20, 0) ;
-        // _searchBar.searchTextPositionAdjustment = UIOffsetMake(50, 0) ;
-        
+        // 输入文字的调整
+         _searchBar.searchTextPositionAdjustment = UIOffsetMake(30, 0) ;
+     //        [_searchBar setPositionAdjustment:UIOffsetMake(50, 0) forSearchBarIcon:UISearchBarIconSearch] ;
+
         [_searchBar setImage:[UIImage imageNamed:@"search"] forSearchBarIcon:UISearchBarIconSearch state:UIControlStateNormal] ;
         
         _searchBar.layer.masksToBounds = YES ;
@@ -64,6 +64,10 @@
         _searchBar.delegate = self ;
     }
     return _searchBar ;
+}
+
+- (void)setPositionAdjustment:(UIOffset)adjustment forSearchBarIcon:(UISearchBarIcon)icon {
+    
 }
 
 
