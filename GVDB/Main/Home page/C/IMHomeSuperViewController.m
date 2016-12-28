@@ -12,6 +12,7 @@
 #import "IMSuperTableV.h"
 #import "IMTopV.h"
 #import "HomeTableViewCell.h"
+#import "IMTopOneV.h"
 
 @interface IMHomeSuperViewController ()<UITableViewDataSource, UITableViewDelegate, UINavigationControllerDelegate>
 {
@@ -46,7 +47,7 @@
 
 -(void)addSuperView
 {
-    _superTabV = [[IMSuperTableV alloc]initWithFrame:CGRectMake(0, [GVAL setGVAL:88.0], ScreenWIDTH, ScreenHEIGHT - [GVAL setGVAL:128.0]- 44 )] ;
+    _superTabV = [[IMSuperTableV alloc]initWithFrame:CGRectMake(0, SIZE(88.0, SIZE_Type), ScreenWIDTH, ScreenHEIGHT - SIZE(128.0, SIZE_Type)- 44 )] ;
     _superTabV.tableView.delegate = self ;
     _superTabV.tableView.dataSource = self ;
     _superTabV.tableView.sectionHeaderHeight = [GVAL setGVAL:headerViewHeight] ;
@@ -58,9 +59,13 @@
 }
 
 -(void)addTopView{
-    _topV = [[IMTopV alloc]initWithFrame:CGRectMake(0,0, ScreenWIDTH, [GVAL setGVAL:88.0]) ] ;
+    _topV = [[IMTopV alloc]initWithFrame:CGRectMake(0,SIZE(40.0, SIZE_Type), ScreenWIDTH, SIZE(88.0, SIZE_Type)) ] ;
     _topV.backgroundColor = [UIColor whiteColor] ;
     [self.view addSubview: _topV] ;
+    
+    IMTopOneV *topOneV = [[IMTopOneV alloc]initWithFrame:CGRectMake(0, 0, ScreenWIDTH, SIZE(40.0, SIZE_Type))] ;
+    topOneV.backgroundColor = [GVColor hexStringToColor:@"ffba14"] ;
+    [self.view addSubview:topOneV] ;
 }
 
 -(UIView *)setHeaderView{

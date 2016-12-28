@@ -595,7 +595,7 @@
 				TargetAttributes = {
 					B549518E1E114CE300DE0F6B = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = J396HKG633;
+						DevelopmentTeam = C7GPHTB8V9;
 						ProvisioningStyle = Automatic;
 					};
 					B54951A71E114CE300DE0F6B = {
@@ -924,7 +924,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -965,7 +965,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -977,13 +977,13 @@
 			baseConfigurationReference = 49DF9B3C66120515D61075F4 /* Pods-GVDB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = J396HKG633;
+				DEVELOPMENT_TEAM = C7GPHTB8V9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GVDB/Main/宏/PrefixHeader.pch";
 				INFOPLIST_FILE = GVDB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wim.Viosky.GVDB;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zpy.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -993,13 +993,13 @@
 			baseConfigurationReference = 8CF8A7864D89C2CF0348510B /* Pods-GVDB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = J396HKG633;
+				DEVELOPMENT_TEAM = C7GPHTB8V9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GVDB/Main/宏/PrefixHeader.pch";
 				INFOPLIST_FILE = GVDB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wim.Viosky.GVDB;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zpy.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

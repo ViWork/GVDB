@@ -33,7 +33,7 @@
         make.left.mas_equalTo (self.mas_left) ;
         make.right.mas_equalTo (self.mas_right) ;
         make.width.mas_equalTo (self.mas_width) ;
-        make.height.mas_equalTo ( [GVAL setGVAL:40.0]) ;
+        make.height.mas_equalTo ( SIZE(40.0, SIZE_Type)) ;
     }] ;
 }
 @end

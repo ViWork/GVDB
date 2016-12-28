@@ -11,6 +11,10 @@
 @interface IMTopV : UIView<UISearchBarDelegate>
 @property(nonatomic,strong)UIButton *leftBtn ,*rightBtn ;
 @property(nonatomic,strong)UIImageView * topImg ;
+
+/**
+ 搜索
+ */
 @property(nonatomic,strong)UISearchBar * searchBar ;
 
 @end
