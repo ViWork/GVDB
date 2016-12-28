@@ -19,7 +19,7 @@
 
     
     else{
-        al = TYPE0;
+        al = 163;
     }
     NSInteger GVAL;
     GVAL = AL*72.0/al;

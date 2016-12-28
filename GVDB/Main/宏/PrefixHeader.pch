@@ -14,8 +14,8 @@
 #define ScreenWIDTH    [UIScreen  mainScreen].bounds.size.width
 #define ScreenHEIGHT    [UIScreen mainScreen].bounds.size.height
 
-#define SIZE(size) (size*72.0/TYPE)
-
+#define SIZE(size) (size*72.0/SIZE_Type)
+#define SIZE_Type 163
 
 #pragma mark - 引入头文件
 #import "IMHomeSuperViewController.h"
