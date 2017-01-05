@@ -1,0 +1,194 @@
+- (NSArray<PopoverAction *> *)TwoActions{
+PopoverAction *action1 = [PopoverAction actionWithTitle:@"全部" handler:^(PopoverAction *action) {
+[_headerV.btnAll setTitle:action.title forState:UIControlStateNormal] ;
+}];
+PopoverAction *action2 = [PopoverAction actionWithTitle:@"火锅" handler:^(PopoverAction *action) {
+[_headerV.btnAll setTitle:action.title forState:UIControlStateNormal] ;
+}];
+PopoverAction *action3 = [PopoverAction actionWithTitle:@"小吃快餐" handler:^(PopoverAction *action) {
+[_headerV.btnAll setTitle:action.title forState:UIControlStateNormal] ;
+}];
+PopoverAction *action4 = [PopoverAction actionWithTitle:@"自助餐" handler:^(PopoverAction *action) {
+[_headerV.btnAll setTitle:action.title forState:UIControlStateNormal] ;
+}];
+PopoverAction *action5 = [PopoverAction actionWithTitle:@"烧烤烤肉" handler:^(PopoverAction *action) {
+[_headerV.btnAll setTitle:action.title forState:UIControlStateNormal] ;
+}];
+PopoverAction *action6 = [PopoverAction actionWithTitle:@"甜点饮品" handler:^(PopoverAction *action) {
+[_headerV.btnAll setTitle:action.title forState:UIControlStateNormal] ;
+}];
+
+return @[action1, action2, action3, action4, action5,action6];
+}
+
+
+-(NSArray<PopoverAction *> *)threeActions{
+PopoverAction *action1 = [PopoverAction actionWithTitle:@"附近" handler:^(PopoverAction *action) {
+[_headerV.btnNearby setTitle:action.title forState:UIControlStateNormal] ;
+}];
+PopoverAction *action2 = [PopoverAction actionWithTitle:@"100以内" handler:^(PopoverAction *action) {
+[_headerV.btnNearby setTitle:action.title forState:UIControlStateNormal] ;
+}];
+PopoverAction *action3 = [PopoverAction actionWithTitle:@"300米以内" handler:^(PopoverAction *action) {
+[_headerV.btnNearby setTitle:action.title forState:UIControlStateNormal] ;
+}];
+PopoverAction *action4 = [PopoverAction actionWithTitle:@"500米以内" handler:^(PopoverAction *action) {
+[_headerV.btnNearby setTitle:action.title forState:UIControlStateNormal] ;
+}];
+PopoverAction *action5 = [PopoverAction actionWithTitle:@"1千米以内" handler:^(PopoverAction *action) {
+[_headerV.btnNearby setTitle:action.title forState:UIControlStateNormal] ;
+}];
+PopoverAction *action6 = [PopoverAction actionWithTitle:@"3千米以内" handler:^(PopoverAction *action) {
+[_headerV.btnNearby setTitle:action.title forState:UIControlStateNormal] ;
+}];
+
+return @[action1, action2, action3, action4, action5,action6];
+}
+
+-(NSArray<PopoverAction *> *)fourActions{
+PopoverAction *action1 = [PopoverAction actionWithTitle:@"综合排序" handler:^(PopoverAction *action) {
+[_headerV.btnSequence setTitle:action.title forState:UIControlStateNormal] ;
+}];
+PopoverAction *action2 = [PopoverAction actionWithTitle:@"销量由高到低" handler:^(PopoverAction *action) {
+[_headerV.btnSequence setTitle:action.title forState:UIControlStateNormal] ;
+}];
+PopoverAction *action3 = [PopoverAction actionWithTitle:@"好评由高到低" handler:^(PopoverAction *action) {
+_headerV.btnSequence.titleLabel.text = action.title ;
+}];
+PopoverAction *action4 = [PopoverAction actionWithTitle:@"人气排序" handler:^(PopoverAction *action) {
+[_headerV.btnSequence setTitle:action.title forState:UIControlStateNormal] ;
+}];
+return @[action1, action2, action3, action4];
+}
+
+
+
+
+/*****************************
+/*
+-(void)getSearchButtonTag:(NSInteger)integer
+{
+_headerView = [[IMHeaderView alloc]init] ;
+switch (integer) {
+case 110:
+if (_newBOOL) {
+_newBOOL = !_newBOOL ;
+[_headerView.btnAll setImage:[UIImage imageNamed:@"arrows_up"] forState:UIControlStateNormal];
+[_headerView.btnAll setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal] ;
+}else
+{
+_newBOOL = !_newBOOL ;
+[_headerView.btnAll setImage:[UIImage imageNamed:@"arrows"] forState:UIControlStateNormal];
+[_headerView.btnAll setTitleColor:[GVColor hexStringToColor:@"#888888"] forState:UIControlStateNormal] ;
+}
+break;
+case 111:
+if (_newBOOL) {
+_newBOOL = !_newBOOL ;
+[_headerView.btnNearby setImage:[UIImage imageNamed:@"arrows_up"] forState:UIControlStateNormal];
+[_headerView.btnNearby setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal] ;
+}else
+{
+_newBOOL = !_newBOOL ;
+[_headerView.btnNearby setImage:[UIImage imageNamed:@"arrows"] forState:UIControlStateNormal];
+[_headerView.btnNearby setTitleColor:[GVColor hexStringToColor:@"#888888"] forState:UIControlStateNormal] ;
+}
+break;
+case 112:
+if (_newBOOL) {
+_newBOOL = !_newBOOL ;
+[_headerView.btnSequence setImage:[UIImage imageNamed:@"arrows_up"] forState:UIControlStateNormal];
+[_headerView.btnSequence setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal] ;
+}else
+{
+_newBOOL = !_newBOOL ;
+[_headerView.btnSequence setImage:[UIImage imageNamed:@"arrows"] forState:UIControlStateNormal];
+[_headerView.btnSequence setTitleColor:[GVColor hexStringToColor:@"#888888"] forState:UIControlStateNormal] ;
+}
+break;
+default:
+break;
+}
+}
+
+*/
+
+
+
+
+
+
+-(void)addSuperView
+{
+_superTabV = [[SecondarySuperView alloc]initWithFrame:CGRectMake(0, -10, ScreenWIDTH, ScreenHEIGHT)] ;
+_superTabV.backgroundColor =  [UIColor whiteColor] ;
+tabV.delegate = self ;
+tabV.dataSource = self  ;
+tabV.rowHeight = SIZE(170.0) ;
+tabV.separatorInset = UIEdgeInsetsMake(0, SIZE(24.0), 0, SIZE(24.0)) ; //分割线内边距
+tabV.separatorColor = [GVColor hexStringToColor:@"#eeeeee"] ;
+tabV.contentInset = UIEdgeInsetsMake(TOPVIEWHEIGHT , 0, 10, 0) ; // 内边距
+
+[self.view addSubview: _superTabV] ;
+
+[tabV addSubview:[self  setTopView]] ;
+}
+
+
+
+
+
+
+
+
+//首页   全部  附近   综合排序
+
+/*
+
+if (_newBOOL) {
+_newBOOL = !_newBOOL ;
+[_headerV.btnAll setImage:[UIImage imageNamed:@"arrows_up"] forState:UIControlStateNormal];
+[_headerV.btnAll setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal] ;
+[_headerV.btnSequence setEnabled:NO] ;
+[_headerV.btnNearby setEnabled:NO] ;
+}else
+{
+_newBOOL = !_newBOOL ;
+[_headerV.btnAll setImage:[UIImage imageNamed:@"arrows"] forState:UIControlStateNormal];
+[_headerV.btnAll setTitleColor:[GVColor hexStringToColor:@"#888888"] forState:UIControlStateNormal] ;
+[_headerV.btnNearby setEnabled:YES] ;
+[_headerV.btnSequence setEnabled:YES] ;
+}
+if (_newBOOL) {
+_newBOOL = !_newBOOL ;
+[_headerV.btnNearby setImage:[UIImage imageNamed:@"arrows_up"] forState:UIControlStateNormal];
+[_headerV.btnNearby setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal] ;
+[_headerV.btnAll setEnabled:NO] ;
+[_headerV.btnSequence setEnabled:NO] ;
+}else
+{
+_newBOOL = !_newBOOL ;
+[_headerV.btnNearby setImage:[UIImage imageNamed:@"arrows"] forState:UIControlStateNormal];
+[_headerV.btnNearby setTitleColor:[GVColor hexStringToColor:@"#888888"] forState:UIControlStateNormal] ;
+[_headerV.btnAll setEnabled:YES] ;
+[_headerV.btnSequence setEnabled:YES] ;
+}
+NSLog(@"2️⃣") ;
+if (_newBOOL) {
+_newBOOL = !_newBOOL ;
+[_headerV.btnSequence setImage:[UIImage imageNamed:@"arrows_up"] forState:UIControlStateNormal];
+[_headerV.btnSequence setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal] ;
+[_headerV.btnAll setEnabled:NO] ;
+[_headerV.btnNearby setEnabled:NO] ;
+}else
+{
+_newBOOL = !_newBOOL ;
+[_headerV.btnSequence setImage:[UIImage imageNamed:@"arrows"] forState:UIControlStateNormal];
+[_headerV.btnSequence setTitleColor:[GVColor hexStringToColor:@"#888888"] forState:UIControlStateNormal] ;
+[_headerV.btnAll setEnabled:YES] ;
+[_headerV.btnNearby setEnabled:YES] ;
+}
+
+
+*/
+

@@ -18,8 +18,8 @@ typedef void(^FailureBlock)(id failure);
 
 
 //验证码
-+ (void)requestForPhoneCodeURL:(NSString *)url
-                    parameters:(id)parameters
-                       Success:(SuccessBlock)success
-                       Failure:(FailureBlock)failure;
++ (void)requestForPhoneCodeURL:(NSString *)url  parameters:(id)parameters  Success:(SuccessBlock)success  Failure:(FailureBlock)failure;
+
++ (void)requestDataWithURL:(NSString *)url params:(id )params successBlock:(SuccessBlock)success failure:(FailureBlock)failure ;
+
 @end

@@ -8,32 +8,41 @@
 
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
-
+//    wim.Viosky.GVDB
 // 尺寸
-#define ScreenRect   [UIScreen  mainScreen].bounds
-#define ScreenWIDTH    [UIScreen  mainScreen].bounds.size.width
-#define ScreenHEIGHT    [UIScreen mainScreen].bounds.size.height
+#define ScreenRect              [UIScreen  mainScreen].bounds
+#define ScreenWIDTH            [UIScreen  mainScreen].bounds.size.width
+#define ScreenHEIGHT           [UIScreen mainScreen].bounds.size.height
 
 #define SIZE(size) (size*72.0/SIZE_Type)
-#define SIZE_Type 163
+#define SIZE_Type 163.0
 
 #pragma mark - 引入头文件
-#import "IMHomeSuperViewController.h"
-#import "IMMyViewController.h"
-#import "IMOrderViewController.h"
-#import "IMDeliveryViewController.h"
-#import "IMNavigationVC.h"
+//#import "IMHomeSuperViewController.h"
+//#import "IMMyViewController.h"
+//#import "IMOrderViewController.h"
+//#import "IMDeliveryViewController.h"
+//#import "IMNavigationVC.h"
 #import "GVColor.h"
 #import "UIView+GVExtension.h"
 #import "NetworkRequest.h"
 #import "GVAL.h"
 #import <Masonry.h>
 #import <AFNetworking.h>
+#import <MJRefresh.h>
+#import <UIImageView+WebCache.h>
+
+
 
 #pragma mark - 定义链接
+#import "URLHeader.h"
 #define GV_PASS @"http://www.kdiana.com/index.php/Before/UserCenter/user_login"
 #define GV_TEL @"http://www.kdiana.com/index.php/Before/UserCenter/tel_login"
 #define GV_TEl_TEST @"http://www.kdiana.com/index.php/home/seller/sendMessage"
 #define GV_TEL_YZ @"http://www.kdiana.com/index.php/home/seller/checkTelCaptcha"
 
+
+
+
+#import "SelfAdaption.h"    //Lable自适应
 #endif /* PrefixHeader_pch */

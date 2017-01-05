@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    self.view.backgroundColor = [UIColor whiteColor] ;
 }
 
 
@@ -27,7 +27,7 @@
         // 导航条颜色
         self.navigationBar.barTintColor = [UIColor whiteColor] ;
         //导航栏<按钮>字体颜色
-        self.navigationBar.tintColor = [UIColor whiteColor];
+        self.navigationBar.tintColor = [UIColor blueColor];
         //导航栏的字体颜色,大小
         [self.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor], NSFontAttributeName:[UIFont fontWithName:@"Arial-BoldItalicMT" size:17]}];
 

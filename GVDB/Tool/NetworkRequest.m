@@ -36,4 +36,18 @@
     }];
 }
 
++(void)requestDataWithURL:(NSString *)url params:(id)params successBlock:(SuccessBlock)success failure:(FailureBlock)failure
+{
+    AFHTTPSessionManager * manager = [AFHTTPSessionManager manager] ;
+    manager.responseSerializer = [[AFJSONResponseSerializer alloc]init];
+    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"text/html"] ;
+    [manager POST:url parameters:params success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
+        success(responseObject) ;
+        NSLog(@"~~%@",success) ;
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        failure(error) ;
+         NSLog(@"~~%@",failure) ;
+    }] ;
+    
+}
 @end

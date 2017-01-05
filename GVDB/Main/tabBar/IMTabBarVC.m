@@ -8,6 +8,11 @@
 
 #import "IMTabBarVC.h"
 #import "IMNavigationVC.h"
+#import "IMHomeSuperViewController.h"
+#import "IMDeliveryViewController.h"
+#import "IMOrderViewController.h"
+#import "IMMyViewController.h"
+
 
 
 @interface IMTabBarVC ()
@@ -23,6 +28,7 @@
 - (void)setControllers{
     
     //配置的各个tabbar对应的controller
+
     
     IMNavigationVC *nvc1 = [[IMNavigationVC alloc]initWithRootViewController:[[IMHomeSuperViewController alloc]init]] ;
     IMNavigationVC *nvc2 = [[IMNavigationVC alloc]initWithRootViewController:[[IMDeliveryViewController alloc]init]] ;
